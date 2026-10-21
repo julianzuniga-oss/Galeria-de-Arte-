@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: julianzuniga-oss/Galeria-de-Arte-   # <- cambia esto, ej: cata-lopez/galeria
+  repo: julianzuniga-oss/Galeria-de-Arte-
   branch: main
 
 media_folder: "img"
@@ -22,10 +22,16 @@ collections:
             add_to_top: true
             summary: "{{fields.titulo}} · {{fields.tecnica}}"
             fields:
-              - { label: Foto, name: imagen, widget: image }
+              - { label: Foto principal (portada), name: imagen, widget: image }
+              - label: Más fotos (otros ángulos)
+                name: adicionales
+                widget: list
+                required: false
+                label_singular: foto
+                field: { label: Foto, name: foto, widget: image }
               - { label: Título, name: titulo, widget: string }
-              - { label: Técnica, name: tecnica, widget: string, hint: "Ej: Grafito, Tinta, Óleo" }
-              - { label: Categoría, name: categoria, widget: select, options: ["Dibujo", "Tinta", "Pintura", "Digital", "Otro"] }
+              - { label: Técnica, name: tecnica, widget: string, hint: "Ej: Óleo, Grafito, Arcilla polimérica" }
+              - { label: Categoría, name: categoria, widget: select, options: ["Pintura", "Dibujo", "Mini esculturas"], default: "Dibujo" }
               - { label: Año, name: anio, widget: number, value_type: int, min: 2000, default: 2026 }
               - { label: Precio (COP), name: precio, widget: number, value_type: int, min: 0, default: 0, hint: "Solo números, sin puntos. Pon 0 si es por cotización." }
               - { label: Descripción, name: descripcion, widget: text, required: false }

@@ -236,20 +236,7 @@ const CFG={
 };
 /* Obras: guarda las imágenes en la carpeta /img y escribe el nombre aquí.
    precio: 0 → muestra "Cotizar".  vendida:true → marca como vendida. */
-const ART=[
- {id:1,t:"Sanación",tec:"Grafito",cat:"Dibujo",y:2024,img:"img/sanacion.png",precio:180000,d:"Retrato en grafito sobre papel. Serie de emociones, 2024."},
- {id:2,t:"Tranquilidad",tec:"Tinta y grafito",cat:"Tinta",y:2024,img:"img/tranquilidad.png",precio:200000,d:"Mirada y mariposa. Serie de emociones, 2024."},
- {id:3,t:"Gramófono",tec:"Grafito",cat:"Dibujo",y:2023,img:"img/gramofono.png",precio:150000,d:"Mano, hueso y música."},
- {id:4,t:"Drink Me",tec:"Grafito",cat:"Dibujo",y:2023,img:"img/drinkme.jpg",precio:0,d:"Frasco y cinta. Pieza disponible por cotización."},
- {id:5,t:"Fuerza",tec:"Grafito",cat:"Dibujo",y:2024,img:"img/fuerza.jpg",precio:180000,d:"Retrato con flores. Serie de emociones, 2024."},
- {id:6,t:"Luz de velas",tec:"Óleo",cat:"Pintura",y:2023,img:"img/velas.jpg",precio:650000,d:"Óleo sobre lienzo, atmósfera de claroscuro."},
- {id:7,t:"Delicadeza",tec:"Tinta y grafito",cat:"Tinta",y:2024,img:"img/delicadeza.jpg",precio:200000,d:"Retrato con corona. Serie de emociones, 2024."},
- {id:8,t:"Corazón en llamas",tec:"Grafito",cat:"Dibujo",y:2022,img:"img/corazon.jpg",precio:170000,d:"Anatomía y fuego.",vendida:false},
- {id:9,t:"The Bat",tec:"Tinta",cat:"Tinta",y:2022,img:"img/thebat.jpg",precio:0,d:"Carta de tarot reinterpretada."},
- {id:10,t:"Ánfora",tec:"Grafito",cat:"Dibujo",y:2022,img:"img/anfora.jpg",precio:140000,d:"Concha, vid y vasija."},
- {id:11,t:"Danza",tec:"Grafito",cat:"Dibujo",y:2023,img:"img/danza.jpg",precio:220000,d:"Figura en movimiento."},
- {id:12,t:"Navío",tec:"Tinta china",cat:"Tinta",y:2024,img:"img/navio.jpg",precio:160000,d:"Perfil con barco. Tinta pura."}
-];
+const ART=[];
 /* ========================================= */
 
 const $=s=>document.querySelector(s), money=n=>n?new Intl.NumberFormat('es-CO',{style:'currency',currency:CFG.moneda,maximumFractionDigits:0}).format(n):"Cotizar";
@@ -267,8 +254,7 @@ $('#mq').innerHTML=("<b>✦</b>Grafito<b>✦</b>Tinta<b>✦</b>Óleo<b>✦</b>Re
 
 /* galería */
 let filt="Todo";
-const cats=["Todo",...new Set(ART.map(a=>a.cat))];
-$('#filters').innerHTML=cats.map(c=>`<button class="${c==filt?'on':''}">${c}</button>`).join('');
+function buildFilters(){const cats=["Todo",...new Set(ART.map(a=>a.cat))];$('#filters').innerHTML=cats.map(c=>`<button class="${c==filt?'on':''}">${c}</button>`).join('')}
 function grid(){
   $('#grid').innerHTML=ART.filter(a=>filt=="Todo"||a.cat==filt).map(a=>`
   <article class="card" data-id="${a.id}">
@@ -321,7 +307,11 @@ $('#qf').onsubmit=e=>{e.preventDefault();
   const m=`Hola Cata, quiero cotizar una obra.\nNombre: ${$('#qn').value}\nTipo: ${$('#qt').value}\nTamaño: ${$('#qs').value||'por definir'}\nIdea: ${$('#qd').value}`;
   open("https://wa.me/"+CFG.whatsapp+"?text="+encodeURIComponent(m),"_blank");
 };
-draw();grid();
+fetch('data/obras.json?v='+Date.now()).then(r=>r.json()).then(j=>{
+  ART=(j.obras||[]).filter(o=>!o.oculta).map((o,i)=>({id:i+1,t:o.titulo,tec:o.tecnica||'',cat:o.categoria||'Dibujo',y:o.anio||'',img:(o.imagen||'').replace(/^\//,''),precio:+o.precio||0,d:o.descripcion||'',vendida:!!o.vendida}));
+  cart=cart.filter(id=>ART.some(a=>a.id==id));save();
+  buildFilters();grid();
+}).catch(()=>{$('#grid').innerHTML='<p style="color:#666">No se pudo cargar la galería.</p>'});
 
 /* contadores */
 new IntersectionObserver((es,o)=>es.forEach(e=>{if(!e.isIntersecting)return;o.unobserve(e.target);const n=+e.target.dataset.n;let i=0;const t=setInterval(()=>{i+=Math.ceil(n/50);if(i>=n){i=n;clearInterval(t)}e.target.textContent=i+(n>9?'+':'')},30)}),{threshold:.6}).observe&&document.querySelectorAll('[data-n]').forEach(el=>{new IntersectionObserver((es,o)=>es.forEach(e=>{if(!e.isIntersecting)return;o.unobserve(el);const n=+el.dataset.n;let i=0;const t=setInterval(()=>{i+=Math.ceil(n/50);if(i>=n){i=n;clearInterval(t)}el.textContent=i+(n>9?'+':'')},30)}),{threshold:.6}).observe(el)});

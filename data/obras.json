@@ -1,16 +1,15 @@
 {
   "obras": [
-    {"imagen":"img/sanacion.jpg","titulo":"Sanación","tecnica":"Grafito","categoria":"Dibujo","anio":2024,"precio":180000,"descripcion":"Retrato en grafito sobre papel. Serie de emociones, 2024.","vendida":false,"oculta":false},
-    {"imagen":"img/tranquilidad.jpg","titulo":"Tranquilidad","tecnica":"Tinta y grafito","categoria":"Tinta","anio":2024,"precio":200000,"descripcion":"Mirada y mariposa. Serie de emociones, 2024.","vendida":false,"oculta":false},
-    {"imagen":"img/gramofono.jpg","titulo":"Gramófono","tecnica":"Grafito","categoria":"Dibujo","anio":2023,"precio":150000,"descripcion":"Mano, hueso y música.","vendida":false,"oculta":false},
-    {"imagen":"img/drinkme.jpg","titulo":"Drink Me","tecnica":"Grafito","categoria":"Dibujo","anio":2023,"precio":0,"descripcion":"Frasco y cinta. Disponible por cotización.","vendida":false,"oculta":false},
-    {"imagen":"img/fuerza.jpg","titulo":"Fuerza","tecnica":"Grafito","categoria":"Dibujo","anio":2024,"precio":180000,"descripcion":"Retrato con flores. Serie de emociones, 2024.","vendida":false,"oculta":false},
-    {"imagen":"img/velas.jpg","titulo":"Luz de velas","tecnica":"Óleo","categoria":"Pintura","anio":2023,"precio":650000,"descripcion":"Óleo sobre lienzo, atmósfera de claroscuro.","vendida":false,"oculta":false},
-    {"imagen":"img/delicadeza.jpg","titulo":"Delicadeza","tecnica":"Tinta y grafito","categoria":"Tinta","anio":2024,"precio":200000,"descripcion":"Retrato con corona. Serie de emociones, 2024.","vendida":false,"oculta":false},
-    {"imagen":"img/corazon.jpg","titulo":"Corazón en llamas","tecnica":"Grafito","categoria":"Dibujo","anio":2022,"precio":170000,"descripcion":"Anatomía y fuego.","vendida":false,"oculta":false},
-    {"imagen":"img/thebat.jpg","titulo":"The Bat","tecnica":"Tinta","categoria":"Tinta","anio":2022,"precio":0,"descripcion":"Carta de tarot reinterpretada.","vendida":false,"oculta":false},
-    {"imagen":"img/anfora.jpg","titulo":"Ánfora","tecnica":"Grafito","categoria":"Dibujo","anio":2022,"precio":140000,"descripcion":"Concha, vid y vasija.","vendida":false,"oculta":false},
-    {"imagen":"img/danza.jpg","titulo":"Danza","tecnica":"Grafito","categoria":"Dibujo","anio":2023,"precio":220000,"descripcion":"Figura en movimiento.","vendida":false,"oculta":false},
-    {"imagen":"img/navio.jpg","titulo":"Navío","tecnica":"Tinta china","categoria":"Tinta","anio":2024,"precio":160000,"descripcion":"Perfil con barco. Tinta pura.","vendida":false,"oculta":false}
+    {
+      "imagen": "/img/Cali Weekend Travel Itinerary Collage.png",
+      "titulo": "Cali Es Cali",
+      "tecnica": "Oleo",
+      "categoria": "Pintura",
+      "anio": 2020,
+      "precio": 0,
+      "descripcion": "La Sucursal del Cielo Debe de tener su ilustración.",
+      "vendida": true,
+      "oculta": false
+    }
   ]
 }

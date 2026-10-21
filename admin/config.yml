@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: USUARIO/NOMBRE-DEL-REPO   # <- cambia esto, ej: cata-lopez/galeria
+  repo: julianzuniga-oss/Galeria-de-Arte-   # <- cambia esto, ej: cata-lopez/galeria
   branch: main
 
 media_folder: "img"

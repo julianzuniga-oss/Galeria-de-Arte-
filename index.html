@@ -236,7 +236,7 @@ const CFG={
 };
 /* Obras: guarda las imágenes en la carpeta /img y escribe el nombre aquí.
    precio: 0 → muestra "Cotizar".  vendida:true → marca como vendida. */
-const ART=[];
+let ART=[];
 /* ========================================= */
 
 const $=s=>document.querySelector(s), money=n=>n?new Intl.NumberFormat('es-CO',{style:'currency',currency:CFG.moneda,maximumFractionDigits:0}).format(n):"Cotizar";

@@ -2,6 +2,9 @@
   "obras": [
     {
       "imagen": "/img/Dib. Tatiana_page-0001.jpg",
+      "adicionales": [
+        "/img/mantenimiento_vehicular_publicidad.png"
+      ],
       "titulo": "Retrato personalizado",
       "tecnica": "Lápiz",
       "categoria": "Dibujo",
@@ -13,6 +16,7 @@
     },
     {
       "imagen": "/img/Cali Weekend Travel Itinerary Collage.png",
+      "adicionales": [],
       "titulo": "Cali Es Cali",
       "tecnica": "Oleo",
       "categoria": "Pintura",
@@ -24,6 +28,7 @@
     },
     {
       "imagen": "/img/sanacion.png",
+      "adicionales": [],
       "titulo": "Alcayata de Cera",
       "tecnica": "Cera",
       "categoria": "Otro",

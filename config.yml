@@ -1,0 +1,33 @@
+backend:
+  name: github
+  repo: USUARIO/NOMBRE-DEL-REPO   # <- cambia esto, ej: cata-lopez/galeria
+  branch: main
+
+media_folder: "img"
+public_folder: "img"
+locale: es
+
+collections:
+  - name: galeria
+    label: Galería
+    files:
+      - name: obras
+        label: Mis obras
+        file: data/obras.json
+        fields:
+          - label: Obras
+            name: obras
+            widget: list
+            label_singular: obra
+            add_to_top: true
+            summary: "{{fields.titulo}} · {{fields.tecnica}}"
+            fields:
+              - { label: Foto, name: imagen, widget: image }
+              - { label: Título, name: titulo, widget: string }
+              - { label: Técnica, name: tecnica, widget: string, hint: "Ej: Grafito, Tinta, Óleo" }
+              - { label: Categoría, name: categoria, widget: select, options: ["Dibujo", "Tinta", "Pintura", "Digital", "Otro"] }
+              - { label: Año, name: anio, widget: number, value_type: int, min: 2000, default: 2026 }
+              - { label: Precio (COP), name: precio, widget: number, value_type: int, min: 0, default: 0, hint: "Solo números, sin puntos. Pon 0 si es por cotización." }
+              - { label: Descripción, name: descripcion, widget: text, required: false }
+              - { label: Marcar como vendida, name: vendida, widget: boolean, default: false, required: false }
+              - { label: Ocultar de la página, name: oculta, widget: boolean, default: false, required: false }

@@ -1,6 +1,17 @@
 {
   "obras": [
     {
+      "imagen": "/img/Dib. Tatiana_page-0001.jpg",
+      "titulo": "Retrato personalizado",
+      "tecnica": "Lápiz",
+      "categoria": "Dibujo",
+      "anio": 2024,
+      "precio": 70000,
+      "descripcion": "Retrato mujer",
+      "vendida": false,
+      "oculta": false
+    },
+    {
       "imagen": "/img/Cali Weekend Travel Itinerary Collage.png",
       "titulo": "Cali Es Cali",
       "tecnica": "Oleo",

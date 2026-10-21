@@ -9,7 +9,7 @@
       "precio": 0,
       "descripcion": "La Sucursal del Cielo Debe de tener su ilustración.",
       "vendida": true,
-      "oculta": false
+      "oculta": true
     }
   ]
 }

@@ -10,6 +10,17 @@
       "descripcion": "La Sucursal del Cielo Debe de tener su ilustración.",
       "vendida": true,
       "oculta": false
+    },
+    {
+      "imagen": "/img/sanacion.png",
+      "titulo": "Alcayata de Cera",
+      "tecnica": "Cera",
+      "categoria": "Otro",
+      "anio": 2025,
+      "precio": 0,
+      "descripcion": "Prueba de Publicacion",
+      "vendida": false,
+      "oculta": false
     }
   ]
 }

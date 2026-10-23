@@ -13,30 +13,6 @@
       "descripcion": "Retrato mujer",
       "vendida": false,
       "oculta": false
-    },
-    {
-      "imagen": "/img/Cali Weekend Travel Itinerary Collage.png",
-      "adicionales": [],
-      "titulo": "Cali Es Cali",
-      "tecnica": "Oleo",
-      "categoria": "Pintura",
-      "anio": 2020,
-      "precio": 0,
-      "descripcion": "La Sucursal del Cielo Debe de tener su ilustración.",
-      "vendida": true,
-      "oculta": false
-    },
-    {
-      "imagen": "/img/sanacion.png",
-      "adicionales": [],
-      "titulo": "Alcayata de Cera",
-      "tecnica": "Cera",
-      "categoria": "Mini esculturas",
-      "anio": 2025,
-      "precio": 0,
-      "descripcion": "Prueba de Publicacion",
-      "vendida": false,
-      "oculta": false
     }
   ]
 }

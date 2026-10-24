@@ -37,3 +37,4 @@ collections:
               - { label: Descripción, name: descripcion, widget: text, required: false }
               - { label: Marcar como vendida, name: vendida, widget: boolean, default: false, required: false }
               - { label: Ocultar de la página, name: oculta, widget: boolean, default: false, required: false }
+              - { label: Colección Semana Santa, name: semana_santa, widget: boolean, default: false, required: false, hint: "Actívala para que esta obra aparezca en la sección de Semana Santa" }

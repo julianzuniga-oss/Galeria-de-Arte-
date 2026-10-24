@@ -2,9 +2,7 @@
   "obras": [
     {
       "imagen": "/img/Dib. Tatiana_page-0001.jpg",
-      "adicionales": [
-        "/img/mantenimiento_vehicular_publicidad.png"
-      ],
+      "adicionales": [],
       "titulo": "Retrato personalizado",
       "tecnica": "Lápiz",
       "categoria": "Dibujo",

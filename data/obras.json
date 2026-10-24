@@ -1,6 +1,19 @@
 {
   "obras": [
     {
+      "imagen": "/img/artista.jpg",
+      "adicionales": [],
+      "titulo": "Prueba de Semana Santa",
+      "tecnica": "Foto",
+      "categoria": "Dibujo",
+      "anio": 2026,
+      "precio": 0,
+      "descripcion": "Prueba de Visualizacion de Semana Santa",
+      "vendida": false,
+      "oculta": false,
+      "semana_santa": true
+    },
+    {
       "imagen": "/img/Dib. Tatiana_page-0001.jpg",
       "adicionales": [],
       "titulo": "Retrato personalizado",
@@ -10,7 +23,8 @@
       "precio": 0,
       "descripcion": "Retrato mujer",
       "vendida": false,
-      "oculta": false
+      "oculta": false,
+      "semana_santa": false
     }
   ]
 }

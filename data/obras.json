@@ -1,6 +1,19 @@
 {
   "obras": [
     {
+      "imagen": "/img/file_00000000330c81f5a9a34e6382719b27.png",
+      "adicionales": [],
+      "titulo": "Homenaje \"Hijo del hombre de René Magritte\"",
+      "tecnica": "Acrílico sobre lienzo 32x52",
+      "categoria": "Pintura",
+      "anio": 2023,
+      "precio": 0,
+      "descripcion": "Ejercicios de pintura con acrílico",
+      "vendida": false,
+      "oculta": false,
+      "semana_santa": false
+    },
+    {
       "imagen": "/img/IMG_20260522_021109.jpg",
       "adicionales": [],
       "titulo": "Henry de Strangers things",

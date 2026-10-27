@@ -1,6 +1,21 @@
 {
   "obras": [
     {
+      "imagen": "/img/Picsart_25-12-30_19-52-20-798.jpg",
+      "adicionales": [
+        "/img/IMG_20251225_213536.jpg"
+      ],
+      "titulo": "Ojo realista",
+      "tecnica": "Acrílico sobre papel",
+      "categoria": "Pintura",
+      "anio": 2025,
+      "precio": 0,
+      "descripcion": "Diseño de ojo realista con acrílico",
+      "vendida": false,
+      "oculta": false,
+      "semana_santa": false
+    },
+    {
       "imagen": "/img/file_00000000213881f588df80da36fe1ca5.png",
       "adicionales": [],
       "titulo": "Diseño personalizado de Tatuaje",

@@ -1,6 +1,19 @@
 {
   "obras": [
     {
+      "imagen": "/img/Picsart_26-10-27_01-07-48-943.jpg",
+      "adicionales": [],
+      "titulo": "Corazón de cera mini",
+      "tecnica": "Técnica mixta de modelado y talla en cera",
+      "categoria": "Mini esculturas",
+      "anio": 2024,
+      "precio": 0,
+      "descripcion": "Corazón de cera de vela de aproximadamente 1cm x 2cm de tamaño",
+      "vendida": false,
+      "oculta": false,
+      "semana_santa": false
+    },
+    {
       "imagen": "/img/file_00000000354881f5af75a0546951a6a7.png",
       "adicionales": [
         "/img/IMG_20261027_004140.jpg"

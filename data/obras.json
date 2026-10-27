@@ -1,6 +1,21 @@
 {
   "obras": [
     {
+      "imagen": "/img/file_000000005b4481f58ad4b060415d2a82.png",
+      "adicionales": [
+        "/img/IMG-20260408-WA0024.jpg"
+      ],
+      "titulo": "Mini alcayata",
+      "tecnica": "Técnica mixta de modelado y talla en cera",
+      "categoria": "Mini esculturas",
+      "anio": 2025,
+      "precio": 70000,
+      "descripcion": "Alcayata mini hecha directamente con cera de las velas de laurel que acompañan los pasos en la semana santa de Popayán",
+      "vendida": false,
+      "oculta": false,
+      "semana_santa": true
+    },
+    {
       "imagen": "/img/artista.jpg",
       "adicionales": [],
       "titulo": "Prueba de Semana Santa",

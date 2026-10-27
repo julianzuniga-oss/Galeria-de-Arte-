@@ -1,6 +1,19 @@
 {
   "obras": [
     {
+      "imagen": "/img/file_00000000213881f588df80da36fe1ca5.png",
+      "adicionales": [],
+      "titulo": "Diseño personalizado de Tatuaje",
+      "tecnica": "Lápiz y editado en digital",
+      "categoria": "Dibujo",
+      "anio": 2024,
+      "precio": 0,
+      "descripcion": "Diseño de mariposa encargado para tatuaje",
+      "vendida": false,
+      "oculta": false,
+      "semana_santa": false
+    },
+    {
       "imagen": "/img/file_000000009e5081f5afbbf67414936dc4.png",
       "adicionales": [],
       "titulo": "Alma Amarilla",

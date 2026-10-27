@@ -1,6 +1,19 @@
 {
   "obras": [
     {
+      "imagen": "/img/file_000000009e5081f5afbbf67414936dc4.png",
+      "adicionales": [],
+      "titulo": "Alma Amarilla",
+      "tecnica": "Óleo sobre lienzo 96x65",
+      "categoria": "Pintura",
+      "anio": 2024,
+      "precio": 0,
+      "descripcion": "Obra original de mi autoría. Los girasoles se guían por la luz del sol, aquel que lleva en el interior, ella se guía por las llamas de su alma que la danza le otorga en cada paso\"",
+      "vendida": false,
+      "oculta": false,
+      "semana_santa": false
+    },
+    {
       "imagen": "/img/file_00000000330c81f5a9a34e6382719b27.png",
       "adicionales": [],
       "titulo": "Homenaje \"Hijo del hombre de René Magritte\"",

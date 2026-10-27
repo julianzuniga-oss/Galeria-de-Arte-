@@ -38,7 +38,7 @@
       "precio": 0,
       "descripcion": "Prueba de Visualizacion de Semana Santa",
       "vendida": false,
-      "oculta": false,
+      "oculta": true,
       "semana_santa": true
     },
     {

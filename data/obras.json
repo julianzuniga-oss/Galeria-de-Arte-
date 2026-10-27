@@ -1,6 +1,19 @@
 {
   "obras": [
     {
+      "imagen": "/img/IMG_20260522_021109.jpg",
+      "adicionales": [],
+      "titulo": "Henry de Strangers things",
+      "tecnica": "Óleo sobre lienzo 30x40",
+      "categoria": "Pintura",
+      "anio": 2026,
+      "precio": 0,
+      "descripcion": "Pedido por encargo de pintura, personaje Stranger Things",
+      "vendida": false,
+      "oculta": false,
+      "semana_santa": false
+    },
+    {
       "imagen": "/img/file_000000005b4481f58ad4b060415d2a82.png",
       "adicionales": [
         "/img/IMG-20260408-WA0024.jpg"

@@ -1,6 +1,21 @@
 {
   "obras": [
     {
+      "imagen": "/img/file_00000000354881f5af75a0546951a6a7.png",
+      "adicionales": [
+        "/img/IMG_20261027_004140.jpg"
+      ],
+      "titulo": "Arte religioso",
+      "tecnica": "Lápiz",
+      "categoria": "Dibujo",
+      "anio": 2026,
+      "precio": 0,
+      "descripcion": "Referencia a Santa Catalina de Siena",
+      "vendida": false,
+      "oculta": false,
+      "semana_santa": false
+    },
+    {
       "imagen": "/img/Picsart_25-12-30_19-52-20-798.jpg",
       "adicionales": [
         "/img/IMG_20251225_213536.jpg"

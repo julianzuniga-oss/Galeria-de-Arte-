@@ -1,6 +1,19 @@
 {
   "obras": [
     {
+      "imagen": "/img/Picsart_26-10-27_18-48-12-065.jpg",
+      "adicionales": [],
+      "titulo": "Colección de retratos  \"El Sentir\"",
+      "tecnica": "Grafito sobre papel, mediante gradaciones tonales",
+      "categoria": "Dibujo",
+      "anio": 2024,
+      "precio": 0,
+      "descripcion": "Surrealismo figurativo con elementos simbólicos",
+      "vendida": false,
+      "oculta": false,
+      "semana_santa": false
+    },
+    {
       "imagen": "/img/Picsart_26-10-27_01-07-48-943.jpg",
       "adicionales": [],
       "titulo": "Corazón de cera mini",

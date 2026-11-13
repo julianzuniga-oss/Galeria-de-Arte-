@@ -1,6 +1,19 @@
 {
   "obras": [
     {
+      "imagen": "/img/Picsart_26-11-13_10-26-48-126.png",
+      "adicionales": [],
+      "titulo": "Inktober día 1: Manzana",
+      "tecnica": "Ilustración surrealista a grafito sobre papel",
+      "categoria": "Dibujo",
+      "anio": 2026,
+      "precio": 0,
+      "descripcion": "Reto de dibujo a nivel global qué se celebra en octubre por Instagram, 31 palabras 31 días para desarrollar",
+      "vendida": false,
+      "oculta": false,
+      "semana_santa": false
+    },
+    {
       "imagen": "/img/Picsart_26-11-13_08-41-57-643.jpg",
       "adicionales": [],
       "titulo": "Colección de Retratos \"El Sentir\"",

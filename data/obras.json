@@ -1,19 +1,6 @@
 {
   "obras": [
     {
-      "imagen": "/img/Picsart_26-11-13_08-57-54-579.jpg",
-      "adicionales": [],
-      "titulo": "Colección de Retratos \"El Sentir\"",
-      "tecnica": "Grafito sobre papel, mediante gradaciones tonales",
-      "categoria": "Dibujo",
-      "anio": 2024,
-      "precio": 0,
-      "descripcion": "",
-      "vendida": false,
-      "oculta": false,
-      "semana_santa": false
-    },
-    {
       "imagen": "/img/Picsart_26-11-13_08-41-57-643.jpg",
       "adicionales": [],
       "titulo": "Colección de Retratos \"El Sentir\"",
@@ -48,6 +35,19 @@
       "anio": 2024,
       "precio": 0,
       "descripcion": "Surrealismo figurativo con elementos simbólicos",
+      "vendida": false,
+      "oculta": false,
+      "semana_santa": false
+    },
+    {
+      "imagen": "/img/Picsart_26-11-13_08-57-54-579.jpg",
+      "adicionales": [],
+      "titulo": "Colección de Retratos \"El Sentir\"",
+      "tecnica": "Grafito sobre papel, mediante gradaciones tonales",
+      "categoria": "Dibujo",
+      "anio": 2024,
+      "precio": 0,
+      "descripcion": "",
       "vendida": false,
       "oculta": false,
       "semana_santa": false

@@ -1,6 +1,19 @@
 {
   "obras": [
     {
+      "imagen": "/img/Picsart_26-11-22_00-34-29-667.jpg",
+      "adicionales": [],
+      "titulo": "Ilustración de Pareja, encargo personalizado",
+      "tecnica": "Grafito sobre papel",
+      "categoria": "Dibujo",
+      "anio": 2026,
+      "precio": 0,
+      "descripcion": "Una obra sobre la ternura, la compañía y la belleza de encontrar un lugar en alguien más.",
+      "vendida": false,
+      "oculta": false,
+      "semana_santa": false
+    },
+    {
       "imagen": "/img/Picsart_26-11-13_10-32-16-860.png",
       "adicionales": [],
       "titulo": "Inktober día 3: Miniatura",

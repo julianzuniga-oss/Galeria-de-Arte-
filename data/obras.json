@@ -1,6 +1,19 @@
 {
   "obras": [
     {
+      "imagen": "/img/Picsart_26-11-24_00-38-22-001.jpg",
+      "adicionales": [],
+      "titulo": "Inktober día 1: Sueño",
+      "tecnica": "Ilustración surrealista a grafito sobre papel",
+      "categoria": "Dibujo",
+      "anio": 2023,
+      "precio": 0,
+      "descripcion": "Reto de dibujo a nivel global que se realiza en octubre por Instagram, 31 palabras por día, cada día a desarrollar la ilustración según la palabra.",
+      "vendida": false,
+      "oculta": false,
+      "semana_santa": false
+    },
+    {
       "imagen": "/img/Picsart_26-11-24_00-34-49-611.jpg",
       "adicionales": [],
       "titulo": "Inktober día 3: Camino",
@@ -68,7 +81,7 @@
     {
       "imagen": "/img/Picsart_26-11-13_08-41-57-643.jpg",
       "adicionales": [],
-      "titulo": "Colección de Retratos \"El Sentir\"",
+      "titulo": "Colección de Retratos \"El Sentir\" M",
       "tecnica": "Grafito sobre papel, mediante gradaciones tonales",
       "categoria": "Dibujo",
       "anio": 2024,
@@ -81,7 +94,7 @@
     {
       "imagen": "/img/Picsart_26-11-13_08-33-07-295.jpg",
       "adicionales": [],
-      "titulo": "Colección de Retratos \"El Sentir\"",
+      "titulo": "Colección de Retratos \"El Sentir\" L",
       "tecnica": "Grafito sobre papel, mediante gradaciones tonales",
       "categoria": "Dibujo",
       "anio": 2024,
@@ -94,7 +107,7 @@
     {
       "imagen": "/img/Picsart_26-11-06_23-47-34-447.jpg",
       "adicionales": [],
-      "titulo": "Colección de retratos  \"El Sentir\"",
+      "titulo": "Colección de retratos  \"El Sentir\" A",
       "tecnica": "Grafito sobre papel, mediante gradaciones tonales",
       "categoria": "Dibujo",
       "anio": 2024,
@@ -107,7 +120,7 @@
     {
       "imagen": "/img/Picsart_26-11-13_09-06-56-323.jpg",
       "adicionales": [],
-      "titulo": "Colección de Retratos \"El Sentir\"",
+      "titulo": "Colección de Retratos \"El Sentir\" i",
       "tecnica": "Grafito sobre papel, mediante gradaciones tonales",
       "categoria": "Dibujo",
       "anio": 2024,
@@ -120,7 +133,7 @@
     {
       "imagen": "/img/Picsart_26-11-13_08-57-54-579.jpg",
       "adicionales": [],
-      "titulo": "Colección de Retratos \"El Sentir\"",
+      "titulo": "Colección de Retratos \"El Sentir\" X",
       "tecnica": "Grafito sobre papel, mediante gradaciones tonales",
       "categoria": "Dibujo",
       "anio": 2024,
